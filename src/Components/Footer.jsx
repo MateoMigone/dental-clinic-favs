@@ -3,8 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p>Powered by</p>
-      <img src="/images/DH.png" alt="DH-logo" />
+      <p>Created by </p>
+      <span style={{ fontSize: "26px", color: "black", fontWeight: "bold" }}>
+        Mateo Migone
+      </span>
     </footer>
   );
 };

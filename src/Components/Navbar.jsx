@@ -10,7 +10,8 @@ const Navbar = () => {
   return (
     <nav className={state.theme}>
       <h2>
-        <span style={{ color: "#d50000" }}>D</span>H Odonto
+        <span style={{ color: "#d50000" }}>D</span>ental{" "}
+        <span style={{ color: "#d50000" }}>C</span>linic
       </h2>
       <div>
         {/* Aqui deberan agregar los liks correspondientes a las rutas definidas */}
